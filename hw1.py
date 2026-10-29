@@ -75,7 +75,6 @@ def most_frequent_letter(text: str) -> list[str]:
     return sorted([letter for letter, count in counts.items() if count == max_count])
 
 
-# Демонстрація роботи функцій
 if __name__ == "__main__":
     text_data = """
    1-ше місце
